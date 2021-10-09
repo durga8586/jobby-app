@@ -1,0 +1,86 @@
+.bg-container {
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.job-item {
+  background-color: #202020;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+}
+.line {
+  color: white;
+}
+.desc-cont3 {
+  display: flex;
+  justify-content: space-between;
+}
+.url-link {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.skills-heading {
+  color: white;
+}
+.title {
+  color: white;
+  font-size: 20px;
+}
+.life-at-company-name {
+  color: white;
+}
+.skill-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-item {
+  display: flex;
+  color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.skill-image {
+  width: 100%;
+}
+.skill-name {
+  padding-top: 10px;
+  margin-left: 10px;
+}
+.life-cont {
+  display: flex;
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .life-cont {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.life-image {
+  width: 100%;
+}
+.life-para {
+  padding-right: 20px;
+}
+.similar-job-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-job-heading {
+  color: white;
+  font-family: 'roboto';
+}
+.jobs-error-view-container {
+  background-color: black;
+  padding: 50px;
+}

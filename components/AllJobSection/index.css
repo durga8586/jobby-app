@@ -1,0 +1,92 @@
+.main-job-container {
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+}
+.mobile-view-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-view-container {
+    display: none;
+  }
+}
+
+.laptop-view-container {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .laptop-view-container {
+    display: none;
+  }
+}
+
+.filter-profile-container {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 25%;
+}
+.job-list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.search-job-list-container {
+  margin-left: 20px;
+}
+.employment-filter-heading {
+  color: white;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.type-of-employment-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.salary-range-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.products-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: auto;
+  align-items: center;
+  color: white;
+  font-family: 'roboto';
+}
+
+.jobs-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-failure-heading-text {
+  color: white;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+.jobs-failure-description {
+  color: white;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
